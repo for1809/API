@@ -18,4 +18,4 @@ def get_stock_data():
         price = data['Time Series (5min)'][last_refreshed]['1. open']
         return price
     else:
-        return No
+        return None
